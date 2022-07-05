@@ -1,0 +1,1 @@
+Buenas tardes. La idea de este trabajo es agregarle CSS al index de la actividad 1. Utilize Boxicons, agregandolo al css y utilizando el icono en forma de caja.

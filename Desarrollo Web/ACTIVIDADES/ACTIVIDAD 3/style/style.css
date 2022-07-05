@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #f8edeb;
+}
+
+ /* Css aplicado en el INDEX */
+
+.header__nav {
+    height: 100px;
+    width: 100%;
+    background-color: #4a4e69;
+}
+
+.logo{
+    font-size: 35px;
+    color: white;
+    padding: 0 100px; 
+}
+
+.logo i{
+    font-size: 70px;
+    padding-top: 5px;
+}
+
+
+.header__nav .header__ul{
+    float: right;
+    margin-right: 40px;
+}
+
+.header__ul li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+ li a {
+    color: white;
+    font-size: 25px;
+    padding: 3px;
+    padding-left: 15px;
+}
+
+a.active,a:hover{
+    color: #9a8c98;
+    transition: .5s;
+}
+
+.main__img{
+
+    width: 370px;
+    height: 370px;
+    float: left;
+}
+
+.main__img img{
+    padding: 40px;
+}
+
+.main__p {
+    
+    width: 800px;
+    height: 370px;
+    float: left;
+    text-align: center;
+    margin: 120px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #e0b1cb;
+
+}
+
+
+#footer img {
+    width: 50px;
+    height: 70px;
+}
+
+.footer__redes{
+    float: left;
+}
+
+.footer__pagos{
+    float: right;
+}
+
+
+ /* Css en la seccion de Form */
+
+
+#main__form{
+    width: 400px;
+    background-color: #354f52;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+}
+
+.text__form{
+    text-align: center;
+}
+
+input {
+    height: 30px;
+}
+
+/* Footer General */
+
+#footer__general{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #e0b1cb;
+    text-align: center;
+}
+
+.footer__a{
+    text-decoration: none;
+
+}
+
+/* CSS en Tienda */
+
+#main__tienda{
+    padding-left: 30px;
+}
+
+.ol__tienda a{
+    color: gray;
+    font-size: 20px;
+    
+}
+
+
+.section__img img{
+    height: 150px;
+    width: 150px;
+}
+
+/* CSS en Ubicacion */
+
+#main__preg{
+    padding-left: 30px;
+}
+
+.section__preg h1{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
